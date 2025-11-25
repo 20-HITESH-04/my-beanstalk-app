@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-error.log
+logs/
+*.log
+
+# Environment variables
+.env
+
+# AWS Elastic Beanstalk files to ignore
+.elasticbeanstalk/*.log
+.elasticbeanstalk/*.bak
+.elasticbeanstalk/*-prev.config
+.elasticbeanstalk/*.tmp
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Build artifacts (just in case)
+dist/
+build/
